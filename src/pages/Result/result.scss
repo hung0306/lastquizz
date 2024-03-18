@@ -1,0 +1,36 @@
+.result__tag-true{
+   color: green;
+   background-color: gold;
+   border-radius: 8px;
+   font-weight: 600;
+   margin-left: 20px;
+   font-size: 30px;
+}
+.result__tag-false{
+    color: red;
+    background-color: gold;
+   border-radius: 8px;
+   font-weight: 600;
+   margin-left: 20px;   
+   font-size: 30px;
+}
+.result__item-selected{
+    color: red;
+}
+.result__item-result{
+    color: green;
+    
+  
+}
+.result__question{
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.result__item{
+    background-color: white;
+        margin-bottom: 20px;
+        padding: 15px;
+        border-radius: 8px;
+}

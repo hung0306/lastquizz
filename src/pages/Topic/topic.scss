@@ -1,0 +1,47 @@
+.layout__topic{
+    width: 80%;
+   &-list{
+        display: flex;
+        flex-wrap: wrap;
+   }
+   &-item{
+    // width: 1500px;
+    width: calc((100% / 2) - 30px);
+    box-sizing: border-box;
+   
+  
+    margin-right: 30px;
+    margin-bottom: 50PX;
+    height: 200px;
+    
+    // background-color: #6c4298;
+    :hover{
+        opacity: 0.7;
+    }
+    button{
+        
+        cursor: pointer;
+        font-size: 50px;
+        width: 100%;
+        border: none;
+        background-color: #18DCFE;
+        box-shadow: 0 4px #6c4298;
+        border-radius: 8px;
+        color: white;
+        height: 100%;
+        
+       
+        a{
+            text-decoration: none;
+            
+         
+           
+        }
+       
+    }
+   }
+   &-h2{
+    text-align: center;
+   }
+ 
+}

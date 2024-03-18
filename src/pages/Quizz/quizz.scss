@@ -1,0 +1,26 @@
+.form-quizz {
+  
+    &__question {
+        font-weight: bold;
+        margin: 0  ;
+        margin-bottom: 10px;
+    }
+
+    &__submit {
+        font-size: 30px;
+        background-color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    &__center{
+        text-align: center;
+    }
+    &__item{
+        background-color: white;
+        margin-bottom: 20px;
+        padding: 15px;
+        border-radius: 8px;
+    }
+
+}
