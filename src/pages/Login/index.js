@@ -40,7 +40,7 @@ function Login(){
         <h2 className="form__h2">Đăng nhập</h2>
         <div><img className="form__login-icon" src="https://thanhnien.mediacdn.vn/uploaded/dangkhoa/2021_02_18/hinh1a-emoji_PRHW.jpg?width=500" alt="d"/></div>
         <div>
-            <input required  className="form__login-account" placeholder = "Nhập tài khoản" type = "email"/>
+            <input required  className="form__login-account" placeholder = "Nhập email" type = "email"/>
         </div>
         <div>
             <input required  className="form__login-pass" type = "password" placeholder = "Nhập mật khẩu"/>
