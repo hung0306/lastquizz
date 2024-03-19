@@ -63,7 +63,7 @@ function Register() {
                     <input className="form__login-name"  placeholder="Nhập họ tên" type="text" />
                 </div></div>
         <div>
-            <input required className="form__login-account" placeholder = "Nhập tài khoản" type = "email"/>
+            <input required className="form__login-account" placeholder = "Nhập email" type = "email"/>
         </div>
         <div>
             <input required className="form__login-pass" type = "password" placeholder = "Nhập mật khẩu"/>
