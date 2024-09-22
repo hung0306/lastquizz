@@ -1,4 +1,5 @@
 const API_DOMAIN = "https://quizzz-d1fx.onrender.com/";
+// const API_DOMAIN = "https://quizzz-d1fx.onrender.com/";
 export const get = async (path) =>{
     const response = await   fetch(API_DOMAIN + path)
     const result = await response.json()
